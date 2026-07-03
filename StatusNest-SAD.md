@@ -756,26 +756,7 @@ terraform apply -var="environment=dev"
 
 ---
 
-## Appendix A — Infrastructure Summary
-
-| Resource | Name | Value |
-|---|---|---|
-| AWS Account | — | `026243800492` |
-| Region | — | `us-east-1` |
-| VPC | — | `statusnest-dev-vpc` |
-| ECS Cluster | — | `statusnest-dev-cluster` |
-| ALB | DNS | `statusnest-dev-alb-1293848550.us-east-1.elb.amazonaws.com` |
-| CloudFront | Domain | `d1wwgn689544k.cloudfront.net` |
-| CloudFront | ID | `E1PD475EXURYXL` |
-| RDS | Endpoint | `statusnest-dev-db.c2hcyc4yyuxy.us-east-1.rds.amazonaws.com` |
-| Redis | Endpoint | `statusnest-dev-redis.b8x2ra.0001.use1.cache.amazonaws.com:6379` |
-| S3 Frontend | Bucket | `statusnest-dev-frontend` |
-| S3 Terraform State | Bucket | `statusnest-terraform-state` |
-| GitHub Actions Role | ARN | `arn:aws:iam::026243800492:role/statusnest-dev-github-actions-role` |
-
----
-
-## Appendix B — Technology Stack Summary
+## Appendix A — Technology Stack Summary
 
 | Layer | Technology | Version |
 |---|---|---|
